@@ -1,0 +1,29 @@
+.cardContainer {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+
+}
+
+.card {
+    width: 200px;
+    height: 270px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: #807878 10px 10px  30px;
+    background: rgb(36, 39, 44);
+   
+
+
+}
+.card:hover{
+    animation: scale 1.5s ease  1;
+    scale: 1.2;
+}
+
+.projectImage {
+    width: 180px;
+}

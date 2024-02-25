@@ -1,0 +1,50 @@
+
+
+
+
+
+.scM1:hover {
+    content: url("https://mymusic-dev.freewebhostmost.com/icons/info3d.png");
+}
+
+.scM2:hover {
+
+    content: url("https://mymusic-dev.freewebhostmost.com/icons/instaGram2_3d.png");
+}
+
+.scM3:hover {
+    content: url("https://mymusic-dev.freewebhostmost.com/icons/gitHub3d.png");
+}
+
+.scM4:hover {
+    content: url("https://mymusic-dev.freewebhostmost.com/icons/reddit3d.png");
+}
+
+.scM5:hover {
+    content: url("https://mymusic-dev.freewebhostmost.com/icons/email3d.png");
+}
+
+.scM6:hover {
+    content: url("https://mymusic-dev.freewebhostmost.com/icons/youTube3d.png");
+}
+
+
+
+
+/* scrollBar css */
+/* The first color is for the thumb, and the second color is for the track */
+.scrollable-element {
+    scrollbar-color: rgb(0, 0, 0) black;
+    border-radius: 90px;
+    /* Adjust as needed */
+}
+
+:root {
+    color-scheme: dark;
+}
+
+.scrollable-element::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 90px;
+    /* Adjust as needed */
+}

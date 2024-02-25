@@ -1,0 +1,48 @@
+.leftBar {
+    position: absolute;
+    left: 262px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.leftBar div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+
+}
+
+.leftBar:hover {
+    animation: opacity .5s ease-in-out;
+    height: max-content;
+    width: 120px;
+    box-shadow: 10px 10px 10px grey;
+border-radius: 12px;
+}
+
+.leftBarIcoDiv img {
+    width: 30px;
+    cursor: pointer;
+    background:rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.leftBarIcoDiv a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.leftBarIcoDiv a p {
+    color: white;
+}
+
+.leftMenuDiv a {
+    color: white;
+}
