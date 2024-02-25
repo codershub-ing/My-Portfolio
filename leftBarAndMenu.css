@@ -5,6 +5,7 @@
     height: 40px;
     overflow: hidden;
     border-radius: 50%;
+  
 
 }
 
@@ -17,12 +18,13 @@
 }
 
 .leftBar:hover {
-    animation: opacity .5s ease-in-out;
+    animation: opacity .5s ease-in-out 1;
     height: max-content;
     width: 120px;
     box-shadow: 10px 10px 10px grey;
-border-radius: 12px;
+    border-radius: 12px;
 }
+
 
 .leftBarIcoDiv img {
     width: 30px;
